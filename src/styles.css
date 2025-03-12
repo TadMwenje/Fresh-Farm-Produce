@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f3e8;
+    color: #36454f;
+    display: flex; /* Add flex to body for alignment */
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    min-height: 100vh; /* Make sure body takes full viewport height */
+  }
+  
+  h2 {
+    color: #734f1f;
+    text-align: center; /* Center the heading */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 20px; /* Add margin to separate from submissions */
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    padding: 8px;
+    border: 1px solid #b08968;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #a57c50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for fade effect */
+  }
+  
+  button:hover {
+    background-color: #80603f; /* Darker brown on hover */
+  }
+  
+  /* FarmSalesPage styles */
+  .submission-container {
+    width: 80%; /* Limit container width for better readability */
+    max-width: 800px; /* Set a maximum width */
+  }
+  
+  .submission-item {
+    background-color: #e9d6b5;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
