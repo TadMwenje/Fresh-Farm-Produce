@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import '../styles.css';
 import axios from 'axios';
 
@@ -10,7 +9,7 @@ function IndexPage() {
     message: '',
   });
   const [errors, setErrors] = useState({});
-  const navigate = useNavigate();
+  
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
