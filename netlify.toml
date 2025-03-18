@@ -1,4 +1,3 @@
 [build]
-  base = "FARM-APP"
-  publish = "FARM-APP/build"
+  publish = "build"
   command = "npm run build" # or "yarn build"
